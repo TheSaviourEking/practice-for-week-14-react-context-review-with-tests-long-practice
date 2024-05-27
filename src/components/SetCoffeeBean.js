@@ -9,7 +9,7 @@ const SetCoffeeBean = ({ coffeeBeans }) => {
       <h2>Select a Coffee Bean</h2>
       <select
         name="coffee-bean"
-        // value={coffeeBean.id}
+        value={coffeeBean.id}
         onChange={(e) => setCoffeeBeanId(e.target.value)}
       >
         {coffeeBeans.map(bean => (
